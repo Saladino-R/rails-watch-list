@@ -15,5 +15,9 @@
 </ul>
 </h2>
 
+<h4>Movies</h4>
+<%= cl_image_tag @list.photo.key, height: 300, width: 400, crop: :fill %>
 
-<%= link_to 'ADD a movie in your list', new_list_bookmark_path(@list.id), class: 'btn btn-primary' %>
+
+
+<%= link_to 'ADD a bookmarks', new_list_bookmark_path(@list.id), class: 'btn btn-primary' %>

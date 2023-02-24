@@ -21,7 +21,8 @@ oe.save
 drama = List.new(name: 'Drama')
 drama.save
 
+require "json"
+require "open-uri"
 
 
-puts 'Done...'
-p Movie.count
+puts 'Done...' Movie.count
